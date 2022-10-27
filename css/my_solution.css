@@ -50,5 +50,10 @@
 transform: scale(0.5, 0.5);
    }
 
+/* exercise 6 */
+
+.ex-6-img:hover {
+    filter: grayscale(100%);
+   }
 
 
