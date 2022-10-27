@@ -20,7 +20,6 @@
 
 
 /* exercise 3 */
-
 .ex-3-square {
     transition: 1s;
 }
@@ -28,5 +27,15 @@
 .ex-3-square:hover {
     border-radius: 100%;
 }
+
+/* exercise 4 */
+.ex-4-square {
+    transition: 1s;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
+}
+
 
 
