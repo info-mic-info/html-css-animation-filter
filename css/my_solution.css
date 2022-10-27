@@ -106,20 +106,58 @@
 
 /* exercise 11 */
 
-.ex-11-icon:hover{
+.ex-11-icon:hover {
     animation: rotation linear 1s;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0);
     }
 
-    @keyframes rotation {
-        0% {
-            transform: rotate(0);
-        }
-
-        80% {
-            transform: rotate(300deg);
-        }
-
-        100% {
-            transform: rotate(0);
-        }
+    80% {
+        transform: rotate(300deg);
     }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+/* exercise 12 */
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: rec-top 1s linear;
+}
+
+@keyframes rec-top {
+    0% {
+        left:10%;
+    }
+
+    50% {
+        left: 140px;
+    }
+
+    100% {
+        left:10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: rec-bottom 1s linear;
+}
+
+@keyframes rec-bottom {
+    0% {
+        right:10%;
+    }
+
+    50% {
+        right: 140px;
+    }
+
+    100% {
+        right:10%;
+    }
+}
