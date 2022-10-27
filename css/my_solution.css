@@ -132,15 +132,14 @@
 
 @keyframes rec-top {
     0% {
-        left:10%;
+        left: 10%;
     }
 
-    50% {
-        left: 140px;
+    50% { left: 140px
     }
 
     100% {
-        left:10%;
+        left: 10%;
     }
 }
 
@@ -150,7 +149,53 @@
 
 @keyframes rec-bottom {
     0% {
-        right:10%;
+        right: 20%;
+    }
+
+    50% {
+        right: 140px
+    }
+
+    100% {
+        right: 20%;
+    }
+}
+
+/* exercise 13 */
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: rec-top-2 1s linear;
+}
+
+@keyframes rec-top-2 {
+    0% {
+        left: 10%;
+    }
+
+    30% {left: 140px;
+
+    }
+
+    50% {
+        top: px;
+    }
+
+    75% {
+
+    }
+
+    100% {
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: rec-bottom-2 1s linear;
+}
+
+@keyframes rec-bottom-2 {
+    0% {
+        right: 10%;
     }
 
     50% {
@@ -158,6 +203,6 @@
     }
 
     100% {
-        right:10%;
+        right: 10%;
     }
 }
