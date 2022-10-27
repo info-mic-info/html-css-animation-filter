@@ -103,3 +103,23 @@
         transform: rotate(360deg);
     }
 }
+
+/* exercise 11 */
+
+.ex-11-icon:hover{
+    animation: rotation linear 1s;
+    }
+
+    @keyframes rotation {
+        0% {
+            transform: rotate(0);
+        }
+
+        80% {
+            transform: rotate(300deg);
+        }
+
+        100% {
+            transform: rotate(0);
+        }
+    }
