@@ -15,7 +15,7 @@
 }
 
 .ex-2-square:active {
-    width: 100%;  
+    width: 100%;
 }
 
 
@@ -43,25 +43,34 @@
 }
 
 .ex-5-square:hover {
- transform: scale(2);
+    transform: scale(2);
 }
 
-.ex-5-square:active{
-transform: scale(0.5, 0.5);
-   }
+.ex-5-square:active {
+    transform: scale(0.5, 0.5);
+}
 
 /* exercise 6 */
 .ex-6-img:hover {
     filter: grayscale(100%);
-   }
+}
 
-   /* exercise 7 */
-.ex-7-img{
+/* exercise 7 */
+.ex-7-img {
     transition: 2s;
 }
 
-.ex-7-img:hover{
+.ex-7-img:hover {
     filter: grayscale(50%) sepia(50%);
 }
 
+/* exercise 8 */
 
+.ex-8-img {
+    transition: 2s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(50%) sepia(50%);
+    border-radius: 20px;
+}
